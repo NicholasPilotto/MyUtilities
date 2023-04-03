@@ -1,6 +1,6 @@
 ---
 Language: Cpp
-BasedOnStyle:  Google
+BasedOnStyle:  LLVM
 AlignArrayOfStructures: Left
 AlignAfterOpenBracket: Align
 AlignConsecutiveMacros: false
@@ -79,7 +79,7 @@ ConstructorInitializerAllOnOneLineOrOnePerLine: true
 ConstructorInitializerIndentWidth: 2
 ContinuationIndentWidth: 2
 Cpp11BracedListStyle: true
-DeriveLineEnding: true
+DeriveLineEnding: false
 DerivePointerAlignment: false
 DisableFormat:   false
 ExperimentalAutoDetectBinPacking: false
