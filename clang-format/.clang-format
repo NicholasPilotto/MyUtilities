@@ -142,7 +142,7 @@ RequiresClausePosition: OwnLine
 RequiresExpressionIndentation: OuterScope
 SeparateDefinitionBlocks: Always
 RawStringFormats:
-  - Language:        Cpp
+  - Language: xCpp
     Delimiters:
       - cc
       - CC
