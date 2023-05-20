@@ -8,10 +8,6 @@ AlignConsecutiveAssignments:
   AcrossEmptyLines: true
   AcrossComments: false
 AlignConsecutiveBitFields: true
-AlignConsecutiveDeclarations: Consecutive
-  Enabled: true
-  AcrossEmptyLines: true
-  AcrossComments: false
 AlignEscapedNewlines: Left
 AlignOperands: Align
 AlignTrailingComments:
@@ -19,7 +15,7 @@ AlignTrailingComments:
 AllowAllArgumentsOnNextLine: true
 AllowAllConstructorInitializersOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
-AllowShortBlocksOnASingleLine: Never
+AllowShortBlocksOnASingleLine: Empty
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortEnumsOnASingleLine: true
 AllowShortFunctionsOnASingleLine: Inline
@@ -70,7 +66,7 @@ BreakStringLiterals: true
 InsertBraces: true
 RemoveBracesLLVM: false
 InsertNewlineAtEOF: true
-InsertTrailingCommas: true
+InsertTrailingCommas: None
 ColumnLimit: 180
 CommentPragmas: '^ IWYU pragma:'
 CompactNamespaces: false
@@ -86,7 +82,7 @@ FixNamespaceComments: true
 EmptyLineAfterAccessModifier: Never
 EmptyLineBeforeAccessModifier: Always
 IndentAccessModifiers: false
-AccessModifierOffset: 1
+AccessModifierOffset: -1
 IndentCaseBlocks: false
 IndentCaseLabels: true
 IndentExternBlock: Indent
@@ -141,7 +137,7 @@ RequiresClausePosition: OwnLine
 RequiresExpressionIndentation: OuterScope
 SeparateDefinitionBlocks: Always
 RawStringFormats:
-  - Language: xCpp
+  - Language: Cpp
     Delimiters:
       - cc
       - CC
