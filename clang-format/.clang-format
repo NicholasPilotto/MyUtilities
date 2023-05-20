@@ -1,4 +1,3 @@
----
 Language: Cpp
 BasedOnStyle: LLVM
 AlignArrayOfStructures: Left
@@ -97,14 +96,14 @@ ForEachMacros:
   - BOOST_FOREACH
 IncludeBlocks:   Regroup
 IncludeCategories:
-  - Regex:           '^<.*\.h>'
-    Priority:        1
-  - Regex:           '^<.*\.hpp>'
-    Priority:        3
-  - Regex:           '^<.*'
-    Priority:        2
-  - Regex:           '.*'
-    Priority:        4
+  - Regex:    '^<.*\.h>'
+    Priority: 1
+  - Regex:    '^<.*\.hpp>'
+    Priority: 3
+  - Regex:    '^<.*'
+    Priority: 2
+  - Regex:    '.*'
+    Priority: 4
 IncludeIsMainRegex: '([-_](test|unittest))?$'
 IncludeIsMainSourceRegex: ''
 IndentGotoLabels: true
@@ -204,4 +203,3 @@ TabWidth:        2
 UseCRLF:         false
 UseTab:          Never
 JavaImportGroups: ['com.example', 'com', 'org']
-...
