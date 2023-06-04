@@ -9,3 +9,11 @@
 --guardelse same-line
 --extensionacl on-extension
 --generictypes
+--hexliteralcase uppercase
+--semicolons never
+--importgrouping alpha
+--operatorfunc spaced
+--trimwhitespace always
+--funcattributes same-line
+--typeattributes same-line
+--wrapenumcases always
