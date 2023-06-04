@@ -4,12 +4,14 @@
 
 import Foundation
 
-protocol Foo: class {}
+protocol Foo: AnyObject {}
 
 class A {
   let destinationUrl: URL
   let big = 123_456.123
   let color = 0xFF77A5
+
+  enum test { a, b, c }
 
   func a() {
     if true {
