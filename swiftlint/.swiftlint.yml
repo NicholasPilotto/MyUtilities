@@ -9,6 +9,7 @@ disabled_rules:
   - orphaned_doc_comment
   - todo
   - unused_capture_list
+  - switch_case_alignment
 
 analyzer_rules:
   - unused_import
@@ -69,6 +70,8 @@ attributes:
     - "@IBAction"
     - "@NSManaged"
     - "@objc"
+    - "@State"
+    - "@Environment"
 
 force_cast: warning
 force_try: warning
@@ -87,11 +90,12 @@ identifier_name:
 
 indentation_width:
   indentation_width: 2
+  include_comments: false
 
 line_length:
   ignores_urls: true
   ignores_function_declarations: true
-  ignores_comments: true
+  ignores_comments: false
 
 multiline_arguments:
   first_argument_location: next_line
